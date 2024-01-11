@@ -1,5 +1,5 @@
 [package]
-name = "Drag_end_drop"
+name = "Drop_and_Sort"
 version = "0.1.0"
 edition = "2021"
 
@@ -12,5 +12,6 @@ dioxus-router = "0.4.3"
 dioxus-signals = "0.4.3"
 dioxus-web = "0.4.3"
 log = "0.4.20"
+fermi = { git = "https://github.com/dioxuslabs/dioxus" }
 
 

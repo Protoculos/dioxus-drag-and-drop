@@ -10,9 +10,7 @@ pub fn NavBar(cx: Scope) -> Element {
             ul {
                 "Simple lists"
                 li { class: "flex flex-col",
-                    Link { class: "", to: Route::Simple {}, "Simple List" }
-                    Link { class: "", to: Route::SimpleVec {}, "Simple Vector" }
-                    Link { class: "", to: Route::AddToVec {}, "Add to Vector" }
+                    Link { class: "", to: Route::DelSort {}, "Delete and sort" }
                 }
             }
         }

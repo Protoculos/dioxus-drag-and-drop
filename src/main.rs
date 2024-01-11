@@ -1,5 +1,6 @@
 #![allow(non_snake_case)]
 mod app;
+pub mod fermi_state;
 mod models;
 mod repo;
 pub mod route;

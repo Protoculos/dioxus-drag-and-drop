@@ -3,7 +3,7 @@ pub struct SvgPath {
     pub d: &'static str,
 }
 
-#[derive(PartialEq, Debug, Clone)]
+#[derive(PartialEq, Debug, Clone, Copy)]
 pub struct Svg {
     pub class: &'static str,
     pub xmlns: &'static str,

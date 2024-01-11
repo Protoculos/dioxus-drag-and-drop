@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.0 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -582,10 +582,6 @@ video {
   position: static;
 }
 
-.m-5 {
-  margin: 1.25rem;
-}
-
 .m-7 {
   margin: 1.75rem;
 }
@@ -602,12 +598,16 @@ video {
   height: 3.5rem;
 }
 
-.h-96 {
-  height: 24rem;
+.h-6 {
+  height: 1.5rem;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-64 {
